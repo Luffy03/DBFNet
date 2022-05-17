@@ -19,12 +19,6 @@ def get_penalty(predict, cls_label):
     sum = (torch.sum(cls_label, dim=-1, keepdim=True) == 1)
     loss1 = - (sum * cls_label).view(n, c, 1, 1) * torch.log(predict + 1e-6)
     loss1 = torch.mean(torch.sum(loss1, dim=1))
-
-    # # if a patch do has label c, then at least one pixel should be assigned to this type
-    # patch_max = predict.view(n, c, -1).max(-1)[0]
-    # loss2 = - cls_label * torch.log(patch_max)
-    # loss2 = torch.mean(torch.sum(loss2, dim=1))
-
     return loss0 + loss1
 
 
