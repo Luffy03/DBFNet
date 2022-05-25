@@ -37,8 +37,5 @@ def get_crf(opt, mask, img):
     output = d.inference(10)
 
     map = np.argmax(output, axis=0).reshape((opt.img_size, opt.img_size))
-    # map = np.asarray(output).reshape((256, 256, 5))
-    # map = softmax(map)
-    # print(pro.shape)
 
     return map
