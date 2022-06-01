@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 from datafiles.color_dict import *
-from models.MyModel import clean_mask
+from models.DBFNet import clean_mask
 from models.tools import get_crf
 import tifffile
 import random
