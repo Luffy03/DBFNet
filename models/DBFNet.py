@@ -3,6 +3,11 @@ from models.tools import *
 import os
 from models.fbf import FBFModule
 
+def clean_mask(mask, cls_label):
+    n, c = cls_label.size()
+    """Remove any masks of labels that are not present"""
+    return mask * cls_label.view(n, c, 1, 1)
+
 
 def get_penalty(predict, cls_label):
     # cls_label: (n, c)
