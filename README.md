@@ -5,10 +5,11 @@ Authors: Linshan Wu, <a href="https://www.leyuanfang.com/">Leyuan Fang</a>, Jun 
 ## Getting Started
 
 ### Prepare Dataset
-Download the Potsdam and Vaihingen dataset after processing [<b>weights</b>](https://drive.google.com/drive/folders/1oenWpYADqd-tTx7JeDQknxRNd3mgW2kQ)
-```bash
-ln -s </path/to/LoveDA> ./LoveDA
-```
+Download the Potsdam and Vaihingen dataset after processing [<b>dataset</b>](https://drive.google.com/drive/folders/1oenWpYADqd-tTx7JeDQknxRNd3mgW2kQ)
+
+Or you can download the datasets from the official [<b>website</b>](https://www.isprs.org/education/benchmarks/UrbanSemLab/2d-sem-label-vaihingen.aspx). Then, crop the original images and create point labels following our code in [<b>Dataprocess</b>](https://github.com/Luffy03/DBFNet/tree/master/DataProcess).
+
+If your want to run our code on your own datasets, the pre-process code is also available in [<b>Dataprocess</b>](https://github.com/Luffy03/DBFNet/tree/master/DataProcess).
 
 
 ## Evaluate DCA Model on the test set
