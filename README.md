@@ -2,6 +2,7 @@
 Code for TIP 2022 paper, [**"Deep Bilateral Filtering Network for Point-Supervised Semantic Segmentation in Remote Sensing Images"**](https://ieeexplore.ieee.org/document/9745130), accepted.
 
 Authors: Linshan Wu, <a href="https://www.leyuanfang.com/">Leyuan Fang</a>, Jun Yue, <a href="https://scholar.google.com/citations?user=dlZuABAAAAAJ&hl=en">Bob Zhang</a>, <a href="https://scholar.google.com/citations?user=Gr9afd0AAAAJ&hl=en">Pedram Ghamisi</a>, and Min He
+
 ## Getting Started
 
 ### Prepare Dataset
@@ -11,26 +12,17 @@ Or you can download the datasets from the official [<b>website</b>](https://www.
 
 If your want to run our code on your own datasets, the pre-process code is also available in [<b>Dataprocess</b>](https://github.com/Luffy03/DBFNet/tree/master/DataProcess).
 
-
-## Evaluate DCA Model on the test set
-### 1. Download the pre-trained [<b>weights</b>](https://drive.google.com/drive/folders/1oenWpYADqd-tTx7JeDQknxRNd3mgW2kQ)
-### 2. Move weight file to log directory
+## Evaluate DBFNet on the test set
+### 1. Download the our [<b>weights</b>](https://drive.google.com/drive/folders/1oenWpYADqd-tTx7JeDQknxRNd3mgW2kQ)
+### 2. Run our code
 ```bash
-mkdir -vp ./log/
-mv ./URBAN_0.4635.pth ./log/URBAN_0.4635.pth
-mv ./RURAL_0.4517.pth ./log/RURAL_0.4517.pth
-python My_test.py
+python predict.py
 ```
 
-### 3. Evaluate on the website
-Submit your test results on [LoveDA Unsupervised Domain Adaptation Challenge](https://codalab.lisn.upsaclay.fr/competitions/424) and you will get your Test score.
-
-Or you can download our [<b>results</b>](https://drive.google.com/drive/folders/1WQdgveVwW016BMKvw1Afj6o_MQ9UcZeA)
-## Train DCA Model
+## Train DBFNet
 ```bash 
 python DCA_train.py
 ```
-The training [<b>logs</b>](https://drive.google.com/drive/folders/1oenWpYADqd-tTx7JeDQknxRNd3mgW2kQ)
 
 ## Citation ✏️ 📄
 
