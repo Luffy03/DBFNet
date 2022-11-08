@@ -21,7 +21,7 @@ python predict.py
 
 ## Train DBFNet
 ```bash 
-python DCA_train.py
+python run/point/p_train.py
 ```
 
 ## Citation ✏️ 📄
