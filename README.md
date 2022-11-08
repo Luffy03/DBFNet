@@ -13,7 +13,7 @@ Or you can download the datasets from the official [<b>website</b>](https://www.
 If your want to run our code on your own datasets, the pre-process code is also available in [<b>Dataprocess</b>](https://github.com/Luffy03/DBFNet/tree/master/DataProcess).
 
 ## Evaluate DBFNet on the test set
-### 1. Download the our [<b>weights</b>](https://drive.google.com/drive/folders/1oenWpYADqd-tTx7JeDQknxRNd3mgW2kQ)
+### 1. Download our [<b>weights</b>](https://drive.google.com/drive/folders/1oenWpYADqd-tTx7JeDQknxRNd3mgW2kQ)
 ### 2. Run our code
 ```bash
 python predict.py
