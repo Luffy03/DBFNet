@@ -12,8 +12,9 @@ Or you can download the datasets from the official [<b>website</b>](https://www.
 If your want to run our code on your own datasets, the pre-process code is also available in [<b>Dataprocess</b>](https://github.com/Luffy03/DBFNet/tree/master/DataProcess).
 
 ## Evaluate
-### 1. Download our [<b>weights</b>](https://drive.google.com/drive/folders/1CiYzJyBn1rV-xsrsYQ6o2HDQjdfnadHl)
-### 2. Run our code
+### 1. Download the [<b>original datasets</b>](https://www.isprs.org/education/benchmarks/UrbanSemLab/2d-sem-label-vaihingen.aspx)
+### 2. Download our [<b>weights</b>](https://drive.google.com/drive/folders/1CiYzJyBn1rV-xsrsYQ6o2HDQjdfnadHl)
+### 3. Run our code
 ```bash
 python predict.py
 ```
