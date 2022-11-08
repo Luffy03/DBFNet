@@ -12,19 +12,28 @@ Or you can download the datasets from the official [<b>website</b>](https://www.
 
 If your want to run our code on your own datasets, the pre-process code is also available in [<b>Dataprocess</b>](https://github.com/Luffy03/DBFNet/tree/master/DataProcess).
 
-## Evaluate DBFNet on the test set
+## Evaluate
 ### 1. Download our [<b>weights</b>](https://drive.google.com/drive/folders/1oenWpYADqd-tTx7JeDQknxRNd3mgW2kQ)
 ### 2. Run our code
 ```bash
 python predict.py
 ```
 
-## Train DBFNet
+## Train 
+### 1. Train DBFNet
 ```bash 
 python run/point/p_train.py
 ```
+### 2. Generate pseudo labels
+```bash 
+python run/point/p_predict_train.py
+```
+### 1. Recursive learning
+```bash 
+python run/second/sec_train.py
+```
 
-## Citation ✏️ 📄
+<!-- ## Citation ✏️ 📄
 
 If you find this repo useful for your research, please consider citing the paper as follows:
 
@@ -39,6 +48,6 @@ If you find this repo useful for your research, please consider citing the paper
   number={},
   pages={1-11},
   doi={10.1109/TGRS.2022.3163278}}
-```
+``` -->
 
 For any questions, please contact [Linshan Wu](mailto:15274891948@163.com).
