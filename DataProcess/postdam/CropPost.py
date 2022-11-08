@@ -98,8 +98,3 @@ def run(root_path):
             train_path = root_path+'/train'
             check_dir(train_path)
             save(img, label, vis, name, train_path, flag='train')
-
-
-if __name__ == '__main__':
-    root_path = '/media/hlf/Luffy/WLS/semantic/dataset/potsdam'
-    run(root_path)
