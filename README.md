@@ -4,21 +4,8 @@ Code for TIP 2022 paper, [**"Deep Bilateral Filtering Network for Point-Supervis
 Authors: Linshan Wu, <a href="https://www.leyuanfang.com/">Leyuan Fang</a>, Jun Yue, <a href="https://scholar.google.com/citations?user=dlZuABAAAAAJ&hl=en">Bob Zhang</a>, <a href="https://scholar.google.com/citations?user=Gr9afd0AAAAJ&hl=en">Pedram Ghamisi</a>, and Min He
 ## Getting Started
 
-#### Requirements:
-- pytorch >= 1.7.0
-- python >=3.6
-- pandas >= 1.1.5
-
-### Install Ever + Segmentation Models PyTorch + audtorch
-```bash
-pip install ever-beta==0.2.3
-pip install git+https://github.com/qubvel/segmentation_models.pytorch
-pip install audtorch
-```
-
-
-### Prepare LoveDA Dataset
-
+### Prepare Dataset
+Download the Potsdam and Vaihingen dataset after processing [<b>weights</b>](https://drive.google.com/drive/folders/1oenWpYADqd-tTx7JeDQknxRNd3mgW2kQ)
 ```bash
 ln -s </path/to/LoveDA> ./LoveDA
 ```
