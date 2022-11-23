@@ -50,4 +50,4 @@ If you find this repo useful for your research, please consider citing the paper
   doi={10.1109/TGRS.2022.3163278}}
 ``` -->
 
-For any questions, please contact [Linshan Wu](mailto:15274891948@163.com).
+For any question, please contact [Linshan Wu](mailto:15274891948@163.com).
