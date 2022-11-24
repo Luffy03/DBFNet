@@ -33,21 +33,20 @@ python run/point/p_predict_train.py
 python run/second/sec_train.py
 ```
 
-<!-- ## Citation ✏️ 📄
+## Citation ✏️ 📄
 
 If you find this repo useful for your research, please consider citing the paper as follows:
 
 ```
-@ARTICLE{9745130,
-  @ARTICLE{9745130,
-  author={Wu, Linshan and Lu, Ming and Fang, Leyuan},
-  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={Deep Covariance Alignment for Domain Adaptive Remote Sensing Image Segmentation}, 
+@ARTICLE{Wu_DBFNet,
+  author={Wu, Linshan and Fang, Leyuan and Yue, Jun and Zhang, Bob and Ghamisi, Pedram and He, Min},
+  journal={IEEE Transactions on Image Processing}, 
+  title={Deep Bilateral Filtering Network for Point-Supervised Semantic Segmentation in Remote Sensing Images}, 
   year={2022},
-  volume={60},
+  volume={},
   number={},
-  pages={1-11},
-  doi={10.1109/TGRS.2022.3163278}}
-``` -->
+  pages={1-1},
+  doi={10.1109/TIP.2022.3222904}}
+```
 
 For any question, please contact [Linshan Wu](mailto:15274891948@163.com).
