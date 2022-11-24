@@ -1,5 +1,5 @@
 # Deep Bilateral Filtering Network (DBFNet)
-Code for TIP 2022 paper, [**"Deep Bilateral Filtering Network for Point-Supervised Semantic Segmentation in Remote Sensing Images"**](https://www.leyuanfang.com/wp-content/uploads/2022/11/3-manuscript.pdf), accepted.
+Code for TIP 2022 paper, [**"Deep Bilateral Filtering Network for Point-Supervised Semantic Segmentation in Remote Sensing Images"**](https://ieeexplore.ieee.org/document/9961229), accepted.
 
 Authors: Linshan Wu, <a href="https://scholar.google.com/citations?hl=en&user=Gfa4nasAAAAJ">Leyuan Fang</a>, <a href="https://scholar.google.com/citations?user=epXQ1RwAAAAJ&hl=en&oi=ao">Jun Yue</a>, <a href="https://scholar.google.com/citations?user=dlZuABAAAAAJ&hl=en">Bob Zhang</a>, <a href="https://scholar.google.com/citations?user=Gr9afd0AAAAJ&hl=en">Pedram Ghamisi</a>, and Min He
 
