@@ -28,7 +28,7 @@ python run/point/p_train.py
 ```bash 
 python run/point/p_predict_train.py
 ```
-### 1. Recursive learning
+### 3. Recursive learning
 ```bash 
 python run/second/sec_train.py
 ```
