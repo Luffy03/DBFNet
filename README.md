@@ -43,9 +43,9 @@ If you find this repo useful for your research, please consider citing the paper
   journal={IEEE Transactions on Image Processing}, 
   title={Deep Bilateral Filtering Network for Point-Supervised Semantic Segmentation in Remote Sensing Images}, 
   year={2022},
-  volume={},
+  volume={31},
   number={},
-  pages={1-16},
+  pages={7419-7434},
   doi={10.1109/TIP.2022.3222904}}
 ```
 
