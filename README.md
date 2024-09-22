@@ -47,6 +47,20 @@ If you find this repo useful for your research, please consider citing the paper
   number={},
   pages={7419-7434},
   doi={10.1109/TIP.2022.3222904}}
+@article{wu2024modeling,
+  title={Modeling the Label Distributions for Weakly-Supervised Semantic Segmentation},
+  author={Wu, Linshan and Zhong, Zhun and Ma, Jiayi and Wei, Yunchao and Chen, Hao and Fang, Leyuan and Li, Shutao},
+  journal={arXiv preprint arXiv:2403.13225},
+  year={2024}
+}
+@inproceedings{AGMM,
+  title={Sparsely Annotated Semantic Segmentation with Adaptive Gaussian Mixtures},
+  author={Wu, Linshan and Zhong, Zhun and Fang, Leyuan and He, Xingxin and Liu, Qiang and Ma, Jiayi and Chen, Hao},
+  booktitle={IEEE Conf. Comput. Vis. Pattern Recog.},
+  month={June},
+  year={2023},
+  pages={15454-15464}
+  }
 ```
 
 For any question, please contact [Linshan Wu](mailto:15274891948@163.com).
